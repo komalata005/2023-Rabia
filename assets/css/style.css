@@ -510,12 +510,20 @@ h6 {
   #hero {
     background-attachment: fixed;
   }
+  
+
+.why-us .content{
+
+  margin: 0px, 5px;
+}
+
+
 }
 
 @media (max-width: 992px) {
   #hero {
     margin-bottom: 0;
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   #hero .container {
@@ -1756,4 +1764,19 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   background: #1c84e3;
   color: #fff;
   text-decoration: none;
+}
+
+.image-container {
+  position: relative;
+  cursor: pointer;
+}
+
+#zoomedImage {
+  max-width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoomed {
+  transform: scale(2); /* You can adjust the zoom level here */
+  transform-origin: center;
 }
