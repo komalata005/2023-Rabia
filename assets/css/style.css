@@ -666,7 +666,7 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us .content {
-  padding: 30px;
+  padding: 25px;
   background: #2FC0BE;
   border-radius: 4px;
   color: #fff;
@@ -1779,4 +1779,17 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
 .zoomed {
   transform: scale(2); /* You can adjust the zoom level here */
   transform-origin: center;
+}
+
+.glass{
+  position: absolute;
+  top: 250px;
+  text-align: center;
+background: rgba(255, 255, 255, 0.33);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.2px);
+-webkit-backdrop-filter: blur(10.2px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+margin:0px 5px;
 }
